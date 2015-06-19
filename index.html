@@ -1,0 +1,196 @@
+<!doctype html>
+
+<!-- Defines the documents primary language as English -->
+<html lang="en">
+
+<!-- Contains data to describe the document includig meta, script, link, title tags-->
+<head>
+  
+  <!-- Defines the documents encoding character set (Multi-lingual Universal Transformation Format) -->
+  <meta charset="utf-8">
+  <!-- Defines  the latest IE version to render the page -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- Responsive Meta tag. The browser will render the width of the page at the width of its own screen. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Descripton for my page -->
+  <meta name="description" content="Learn everything you want to know about Christina Ye projects">
+  <!-- Keywords -->
+  <meta name="keywords" content="Christina Ye, Front-End-Developer, Udaicity, Projects">
+  <!-- Defines how search engines should index my contect -->
+  <meta name="robots" content="noindex, nofollow">
+  
+  <!-- Defines the locations of javascript files -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.js"></script>
+  
+  <!-- Defines the locations of style sheets -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-theme.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400">
+  
+  <!-- Title for my page -->
+  <title>Christina Ye Portfolio Site</title>    
+
+</head>
+
+<body>
+  <!-- This div container defines the fix size and position of the page -->
+  <section class="container">
+    
+    <!-- The header contains the logo, the name -->
+  <header class="row">
+      
+      <!-- This pre-defined bootstrap responsive grid to set 50% width column for logo in medium devices desktop >=992px -->
+      <figure class="col-md-6">
+        <img class="img-responsive left-block logo" src="images/udacity-logo.jpg" alt="udacity-logo">
+      </figure>
+    
+      <!-- This pre-defined bootstrap responsive grid to set 50% width column for name in medium devices desktop >=992px -->
+      <div class="col-md-6 text-right">
+        <h1 class="name">JANE DOETTE</h1>
+        <h4 class="name-title">FRONT-END NINJA</h4>
+      </div>
+
+  </header>
+  
+  <!-- this tag to separate header and main with a horzontal rule-->
+  <hr class="line">
+
+  <!-- This main surrounds the top image, featured work header, and 3 featured work projects -->
+  <main class="row">
+
+    <!-- Uses bootstrap pre-defined responsive grid to set 100% width column for top image -->
+    <div class="col-md-12">
+      <img class="img-responsive center-block" src="images/3.jpg" alt="top image">
+    </div>
+
+    <!-- This section tag surrounds Featured Work projects -->
+    <section>
+
+      <header>
+
+        <div class="col-md-12">
+            <!-- main project header -->
+            <h2 class="featured-work text-left">Featured Work</h2>
+        </div>
+
+      </header>
+
+        <!-- This article contains APPIFY project content that is complete on its own with a heading and content -->  
+        <article>
+                
+          <figure class="col-md-4">
+            <!-- This image can trigger modal APPIFY -->
+            <img class="img-responsive center-block" src="images/1.jpg" data-toggle="modal" data-target="#project1" alt="APPIFY">
+            <h3 class="text-center">APPIFY</h3>
+            <p class="text-center"><a href="https//github.com/udacity/Appify/">https//github.com/udacity/Appify/</a></p>
+          </figure><!-- end column APPIFY -->
+          
+          <!-- Modal APPIFY modified from Bootstrap Example -->
+          <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">APPIFY</h4>
+                </div>
+                <div class="modal-body">
+                  <img class="img-responsive" src="images/1.jpg" alt="APPIFY">
+                  This is my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                  
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </article>
+            
+        <!-- This article contains SUNFLOWER project content that is complete on its own with a heading and content -->
+        <article>
+        
+          <figure class="col-md-4">
+            <!-- This image can trigger modal SUNFLOWER -->
+            <img class="img-responsive center-block" src="images/4.jpg" data-toggle="modal" data-target="#project2" alt="SUNFLOWER">
+            <h3 class="text-center">SUNFLOWER</h3>
+            <P class="text-center"><a href="http://github.com/udacity/Sunflower/">http://github.com/udacity/Sunflower/</a></P>
+          </figure><!-- end column SUNFLOWER -->
+          
+          <!-- Modal SUNFLOWER modified from Bootstrap Example -->
+          <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+            <div class="modal-dialog">
+              
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel1">SUNFLOWER</h4>
+                </div>
+                <div class="modal-body">
+                  <img class="img-responsive" src="images/4.jpg" alt="SUNFLOWER">
+                  This is my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                  
+                </div>
+              </div>
+
+            </div>
+          </div>        
+
+        </article>
+          
+        <!-- This article contains BOKEH project content that is complete on its own with a heading and content -->
+        <article>
+        
+          <figure class="col-md-4">
+            <!-- This image can trigger modal BOKEH -->
+            <img class="img-responsive center-block" src="images/5.jpg" data-toggle="modal" data-target="#project3" alt="BOKEH">
+            <h3 class="text-center">BOKEH</h3>
+            <P class="text-center"><a href="http://github.com/udacity/Bokeh/">http://github.com/udacity/Bokeh/</a></P>
+          </figure><!-- end column BOKEH -->
+        
+          <!-- Modal BOKEH modified from Bootstrap Example-->
+          <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+            <div class="modal-dialog">
+
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel2">BOKEH</h4>
+                </div>
+                <div class="modal-body">
+                  <img class="img-responsive" src="images/5.jpg" alt="BOKEH">
+                  This is my first project in this class. I learned a lot about HTML and CSS.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                  
+                </div>
+              </div>
+            
+            </div>
+          </div>
+
+        </article>
+        
+    </section>
+    
+  </main>
+  
+  <!-- Defines copyright block -->      
+  <footer class="row">
+    
+    <div class="col-md-6 col-md-offset-3 text-center">
+      <small>copyright &copy; 2015 by Christina Ye</small>
+    </div>
+  
+  </footer><!-- end copyright block -->
+  
+  </section><!-- end container -->
+
+</body>
+</html>
